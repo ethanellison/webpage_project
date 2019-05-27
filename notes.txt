@@ -1,0 +1,6 @@
+Tag is an element
+Contents in header do not appear on the page
+div elements are full width (nextLine), block element
+in line fits to size (span), does not take up the full block
+div soup = only using div elements in entire webpage, fixed by html5
+
