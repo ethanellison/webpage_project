@@ -4,3 +4,7 @@ div elements are full width (nextLine), block element
 in line fits to size (span), does not take up the full block
 div soup = only using div elements in entire webpage, fixed by html5
 
+never scroll right on on html document
+th are cells in a table
+in body, td is data (cell data)
+inline styles are no good better to use css
