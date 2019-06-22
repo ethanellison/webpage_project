@@ -8,3 +8,9 @@ never scroll right on on html document
 th are cells in a table
 in body, td is data (cell data)
 inline styles are no good better to use css
+img tag inserts photos styles can be controlled through css
+
+forms:
+method, and action : GET displays info in the url and POST does it behind the scences. ACTION is the file the form is linked to
+
+<input> class references a CSS class, placeholder = temporary text before user inputs texts
