@@ -1,6 +1,12 @@
+<!DOCTYPE html>
 <html>
     <head>        
         <title>My online resume</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Ethan Ellison's online resume">
+        <meta name="keywords" content="Ethan, Ellison, resume, Laval, engineer">
+        <meta name="author" content="Ethan Ellison">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <header>
@@ -38,8 +44,16 @@
                 </article>
             </section>
 
-            <section id="contact-form">
-                <h3>Contact Form</h3>
+            <section>
+                <h3>Opinion</h3>
+                <select name="opinion">
+                    <option value="like">I like this site</option>
+                    <option value="unlike"> I don't like this site</option>
+
+                    </option>
+                </select>
+                <br/>
+                <br/>
                 <form method="get" action="place-order.php">
                     <input name="adress1" placeholder="adress line 1" class="lg-input" /><br />
                     <input name="adress1" placeholder="adress line 2" class="lg-input" /><br />
@@ -48,7 +62,8 @@
                     <input name="province" placeholder="province" class="sm-input" /><br />
 
                 </form>
-            </section>
+
+            </section> 
 
             <footer>
                 <center>&copy; 2019</center>

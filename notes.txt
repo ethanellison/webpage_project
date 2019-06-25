@@ -11,6 +11,26 @@ inline styles are no good better to use css
 img tag inserts photos styles can be controlled through css
 
 forms:
-method, and action : GET displays info in the url and POST does it behind the scences. ACTION is the file the form is linked to
+method, and action : GET displays info in the url and POST does it behind the 
+scences. Would use GET to pass parameters within the URL and POST to hide sensitive
+items like address or passwords.
+ACTION is the file the form is linked to
 
-<input> class references a CSS class, placeholder = temporary text before user inputs texts
+<input> class references a CSS class, placeholder = temporary text before user 
+inputs texts
+type = type of inputs (ex checkbox, button)
+
+radio buttons: input type = "radio" : same name allows them to not be checked at the
+same time. Delivery and pickup options
+
+<select> : contains options whose value is the option you specify. kinda like a 
+dropdown menu
+
+<button> just like wpf
+
+embedding video: flash is dying. 
+<video> controls property doesnt need a value. <source src="source"
+
+doctypes work best in the header: metatages do not need to close, thats what appears
+under webpage google search 
+
